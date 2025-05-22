@@ -1,6 +1,5 @@
 'use client';
 import { Github, Mail } from "lucide-react";
-import { Inter } from "next/font/google";
 import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
