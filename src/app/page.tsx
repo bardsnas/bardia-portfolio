@@ -1,12 +1,10 @@
 'use client';
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Mail } from "lucide-react";
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export default function Home() {
   return (
@@ -58,7 +56,7 @@ export default function Home() {
       >
         <h2 className="text-3xl font-extrabold mb-4 text-slate-800">About Me</h2>
         <p className="text-slate-700 leading-relaxed max-w-2xl">
-          I'm a student of Electrical and Computer Engineering focused on embedded systems, firmware, and digital logic. My curriculum spans real-time task scheduling with FreeRTOS, wireless sensor networks with ESP-NOW, CPU design in SystemVerilog. I'm driven by elegant system-level problem-solving that bridges hardware and software. I have taken additional coursework in Database Management, Data Structures & Algorithms, Artificial Intelligence, tinyML, and Neural Engineering to bolster my proffesional skillsets.
+          I&apos;m a student of Electrical and Computer Engineering focused on embedded systems, firmware, and digital logic. My curriculum spans real-time task scheduling with FreeRTOS, wireless sensor networks with ESP-NOW, CPU design in SystemVerilog. I&apos;m driven by elegant system-level problem-solving that bridges hardware and software. I have taken additional coursework in Database Management, Data Structures & Algorithms, Artificial Intelligence, tinyML, and Neural Engineering to bolster my proffesional skillsets.
         </p>
       </motion.section>
 
@@ -71,7 +69,7 @@ export default function Home() {
       >
         <div>
           <p className="text-slate-700 leading-relaxed max-w-2xl">
-            My personal passions lie in the realm of sustainability and energy efficiency. I serve as President of the Student Organization  <strong className="font-bold">UW Solar</strong>, which focues on project development of solar infrastructure project to power University of Washington's facilities. The project I manage in this organization is the E18 Solar Canopy, a proposal to build a solar-mounted carport structure on UW's largest parking lot. For the past 3 years, I have worked to conduct feasability studies on building the substructure in the marshy region, writing project proposals to garner funding from the UW Treasurer, and presenting a design review to UW Transportation & Facilities.
+            My personal passions lie in the realm of sustainability and energy efficiency. I serve as President of the Student Organization  <strong className="font-bold">UW Solar</strong>, which focues on project development of solar infrastructure project to power University of Washington&apos;s facilities. The project I manage in this organization is the E18 Solar Canopy, a proposal to build a solar-mounted carport structure on UW&apos;s largest parking lot. For the past 3 years, I have worked to conduct feasability studies on building the substructure in the marshy region, writing project proposals to garner funding from the UW Treasurer, and presenting a design review to UW Transportation & Facilities.
           </p>
         </div> 
       
