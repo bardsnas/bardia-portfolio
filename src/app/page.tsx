@@ -115,7 +115,7 @@ export default function Home() {
       >
         <div>
           <p className="text-slate-700 leading-relaxed max-w-2xl">
-            Music is a huge part of my world, I have been playing and learning instruments since the age of 4. I fell in love with the cello when I was 10, insisting on lugging the huge instrument to and from rehearsals. I have played in Cascade Youth Symphony Orchestra during high school, where I had the opportunity to perform symphonies on the stage at Beneroya Hall. I continue to fulfill my musical interests by participating in the UW Campus Philharmonic, where each academic quarter, we have the opportunity to perform a selection of classical and contemporary orchestral pieces for the public.
+            Music is a huge part of my world, I have been playing and learning instruments since the age of 4. I fell in love with the cello when I was 10, insisting on lugging the huge instrument to and from rehearsals. I have played in Cascade Youth Symphony Orchestra during high school, where I had the opportunity to perform symphonies on the stage at Beneroya Hall. I continue to fulfill my musical interests by participating in the <strong className="font-bold">UW Campus Philharmonic Orchestra</strong>, where each academic quarter, we have the opportunity to perform a selection of classical and contemporary orchestral pieces for the public.
           </p>
         </div> 
         <div className="w-full h-auto">
