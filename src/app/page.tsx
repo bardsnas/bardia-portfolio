@@ -94,8 +94,8 @@ export default function Home() {
           <Image
             src="/award.jpeg"
             alt="Award photo"
-            width={200}
-            height={150}
+            width={400}
+            height={250}
             className="rounded-lg shadow-md object-cover"
           />
         </div>
@@ -122,8 +122,8 @@ export default function Home() {
           <Image
             src="/orchestra.jpg"
             alt="orchestra photo"
-            width={400}
-            height={250}
+            width={200}
+            height={150}
             className="rounded-lg shadow-md object-cover"
           />
         </div>
