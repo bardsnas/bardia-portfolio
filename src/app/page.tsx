@@ -122,8 +122,8 @@ export default function Home() {
           <Image
             src="/orchestra.jpg"
             alt="orchestra photo"
-            width={200}
-            height={150}
+            width={300}
+            height={200}
             className="rounded-lg shadow-md object-cover"
           />
         </div>
