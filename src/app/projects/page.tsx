@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Github } from "lucide-react";
 
 export default function ProjectsPage() {
@@ -17,18 +18,19 @@ export default function ProjectsPage() {
       github: "https://github.com/bardsnas/PipelinedProcessor",
     },
     {
-        title: "Single-Cycle CPU",
-        description:
-          "Combined a custom ALU and RegFile to construct a single cycle processor unit.",
-        tools: ["SystemVerilog", "ModelSim", "ARM Assembly", "Digital Design"],
-        github: "https://github.com/bardsnas/SingleCycleProcessor",
+      title: "Single-Cycle CPU",
+      description:
+        "Combined a custom ALU and RegFile to construct a single cycle processor unit.",
+      tools: ["SystemVerilog", "ModelSim", "ARM Assembly", "Digital Design"],
+      github: "https://github.com/bardsnas/SingleCycleProcessor",
     },
   ];
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-white to-slate-100 text-slate-800 px-6 py-12 max-w-5xl mx-auto font-sans">
-        <h1 className="text-3xl font-extrabold mb-10 text-slate-900">Projects</h1>
-        <div className="grid gap-8">
+      <h1 className="text-3xl font-extrabold mb-10 text-slate-900">Projects</h1>
+
+      <div className="grid gap-8">
         {projects.map((proj, idx) => (
           <div
             key={idx}
@@ -59,7 +61,34 @@ export default function ProjectsPage() {
             </a>
           </div>
         ))}
+
+        <section className="mt-8 space-y-4">
+          <h3 className="text-xl font-bold text-slate-800">
+            Project Details: Fire Mitigation System
+          </h3>
+          <p className="text-slate-700 leading-relaxed max-w-3xl">
+            The Fire Danger sign is a halmark of the American forest. Marking your entrance to the park also comes with the warning that spread of wildfire is imminent, bringing caution to campers, hikers, and visitors alike. I had the idea of digitizing this necessary signage via an embedded system to boost its reliability and efficiency. Combining an AM2320 Temperature and Humdity Sensor, PIR Motion Sensor, LEDs, and ESP32 Microcontrollers, I was able to demonstrate a system that would allow the park ranger to monitor entrances of their park while an automated system calculates the Fire Weather Index (FWI) and automatically updates the digital fire danger sign at park entrances.
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <Image
+              src="/firedanger.jpg"
+              alt="Fire danger sign"
+              width={600}
+              height={400}
+              className="rounded shadow object-cover"
+            />
+            <Image
+              src="/fwi.png"
+              alt="Fire Weather Index"
+              width={600}
+              height={400}
+              className="rounded shadow object-cover"
+            />
+          </div>
+        </section>
       </div>
     </main>
   );
 }
+
