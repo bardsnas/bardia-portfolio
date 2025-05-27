@@ -62,7 +62,6 @@ export default function ProjectsPage() {
             View on GitHub
           </a>
 
-          {/* 🔥 Only show this for the fire mitigation project */}
           {proj.title === "ESP-NOW Fire Detection System" && (
             <div className="space-y-4 mt-4">
               <p className="text-slate-700 leading-relaxed">
@@ -73,15 +72,15 @@ export default function ProjectsPage() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <Image
-                  src="/fire-sensor.jpg"
-                  alt="Fire sensor hardware"
+                  src="/firedanger.jpg"
+                  alt="Fire danger sign"
                   width={600}
                   height={400}
                   className="rounded shadow object-cover"
                 />
                 <Image
-                  src="/esp-lcd.jpg"
-                  alt="ESP32 with LCD output"
+                  src="/pwi.png"
+                  alt="FWI"
                   width={600}
                   height={400}
                   className="rounded shadow object-cover"
